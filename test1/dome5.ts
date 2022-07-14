@@ -2,13 +2,13 @@
 
 //接口约束
 
-// interface User{
-//   name:string,
-//   age:number
-// }
-// const fun = function (user:User):User{
-//   return user
-// }
+interface User{
+  name:string,
+  age:number
+}
+let fun = function (user:User):User{
+  return user
+}
 
 // const person = fun({
 //   name:'张三',
